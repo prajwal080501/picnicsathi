@@ -5,6 +5,9 @@ export default makeStyles((theme) => ({
     display: "none",
     [theme.breakpoints.up("sm")]: {
       display: "block",
+      fontWeight: "800",
+      fontSize:"1.5rem",
+      fontFamily: "Architects Daughter",
     },
   },
   search: {
@@ -15,7 +18,7 @@ export default makeStyles((theme) => ({
     "&:hover": { backgroundColor: alpha(theme.palette.common.white, 0.25) },
     marginRight: theme.spacing(1),
     marginLeft:  theme.spacing(3),
-    width: "100%",
+    width: "80%",
     [theme.breakpoints.up("sm")]: {
       marginLeft: theme.spacing(3),
       width: "auto",
