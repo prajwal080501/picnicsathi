@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import {
   Box,
@@ -112,3 +113,16 @@ const PlaceDetails = ({ place }) => {
 };
 
 export default PlaceDetails;
+=======
+import React from 'react'
+
+const PlaceDetails = () => {
+    return (
+        <div>
+            <h1>PlaceDetails</h1>
+        </div>
+    )
+}
+
+export default PlaceDetails
+>>>>>>> da1d17a1ff0a006fe4fc716c7f2740a10e14dc52
